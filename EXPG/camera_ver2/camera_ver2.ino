@@ -14,7 +14,7 @@ void loop() {
     // fが送られてきたらLEDを点灯させる。
    if (c == 'f') {
 digitalWrite(led_pin1, HIGH);   // 点灯
-delay(200);
+delay(100);
 digitalWrite(led_pin1, LOW);    // 消灯
 delay(100);          
 }
